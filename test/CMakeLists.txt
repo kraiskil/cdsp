@@ -23,5 +23,6 @@ target_include_directories(Tests
         ../cnl/include
         )
 
-gtest_discover_tests(Tests)
-
+if(CDSP__ENABLE_TESTS)
+       gtest_discover_tests(Tests)
+endif()

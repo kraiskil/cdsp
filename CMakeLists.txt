@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 3.2)
 project(Cdsp)
 include("cmake/common.cmake")
 
+option(CDSP__ENABLE_TESTS
+         "Run Cdsp tests" ON)
+
 set(Cnl_DESTDIR ${CMAKE_BINARY_DIR}/install)
 file(MAKE_DIRECTORY ${Cnl_DESTDIR})
 
