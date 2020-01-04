@@ -1,6 +1,6 @@
 [submodule "cnl"]
 	path = cnl
-	url = ../cnl/
+	url = https://github.com/johnmcfarlane/cnl.git
 [submodule "test/googletest"]
 	path = test/googletest
 	url = https://github.com/google/googletest.git
