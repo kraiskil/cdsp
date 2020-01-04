@@ -17,7 +17,7 @@ add_subdirectory(cnl)
 # runs a suite of compile-time tests using `static_assert`
 # and run-time tests using gtest
 include(CTest)
-add_subdirectory("test")
+add_subdirectory("test" EXCLUDE_FROM_ALL)
 
 add_library(Cdsp INTERFACE)
 
