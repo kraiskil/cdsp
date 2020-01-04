@@ -61,6 +61,8 @@ The library is hosted on [GitHub](https://github.com/hbe72/dsp)
 ```
 cd /some/directory
 git clone https://github.com/hbe72/cdsp.git
+cd cdsp
+git submodule update --init
 ```
 
 ### Build
@@ -74,7 +76,7 @@ git clone https://github.com/hbe72/cdsp.git
 2. Build tests:
     * Linux and Mac parallel with 8 cores
     ```
-    cmake --build . --target Tests -- -j8
+    make -j8
     ```
     * Windows
     ```
